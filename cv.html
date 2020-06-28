@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile About Me</title>
+    
+    <!--my css-->
+    <link rel="stylesheet" href="css/cv.css">
+    <!--fontawesome-->
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <!--akhir fontawesome-->
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="wrapper">
+        <div class="header-main">
+                    <img src="img/slider/victor.png" alt="victor" class="img-circle">
+                    <h2>Personal Profile</h2>
+                    <p>I'am Fresh Graduate From Medan, Institut Teknologi Dan Bisnis Indonesia with GPA 3.69.</p>
+                    <p>I've the ability in the fields of html, css and javascript programming, i'am happy about this.</p>
+                    <span>"and now I am learning frond end programming, for example node.js and react.js"</span>
+                        <h2>Profile</h2>
+                        <ul>
+                            <li>Date of Birth : September, 08 1996</li>
+                            <li>Marital Status : Single</li>
+                            <li>Religion : Christian Protestan</li>
+                            <li>National : Indonesia</li>
+                        </ul>    
+                        <h2>Education History</h2>
+                        <ul>
+                            <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> 2003 - 2009 || Primary School</li>
+                            <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> 2009 - 2012 || Junior High School</li>
+                            <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> 2012 - 2015 || Senior High School</li>
+                            <li>Social Science</li>
+                            <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> 2015 - 2019 || College Student Institut Teknologi Dan Bisnis Indonesia</li>
+                            <li>Major : Informatic Engineering</li>
+                        </ul>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <i class="fa fa-heart" aria-hidden="true" style="font-size:15px;color: red"></i> copyright 2020 | built by
+                <i class="fa fa-user-circle" aria-hidden="true" style="font-size:15px;color: red"></i> Victor Hutajulu
+                <br>
+                <i class="fa fa-backward" aria-hidden="true" style="font-size: 20px;color:darkorange"></i><a href="index.html">Back To</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+    <script src="js/bootstrap.js">
+    </script>
+    <!--script fontawesome-->
+    <script src="js/fontawesome.js"></script>
+    <script src="js/brands.js"></script>
+    <script src="js/solid.js"></script>
+</body>
+</html>
