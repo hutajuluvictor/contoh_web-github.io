@@ -1,0 +1,75 @@
+
+.slider h3, 
+.slider h5 {
+    color: rgba(255,255,255);
+    text-shadow: 0px 3px 4px rgba(111,255,255,1);
+}
+
+.about p, li{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section, footer {
+    padding: 20px 0;
+}
+
+@font-face {
+    font-family: "Kaushan Script";
+    src: url(../fonts/KaushanScript-Regular.otf) format('truetype');
+}
+
+h1,h2, h3,h5,a, p, span {
+    font-family: "Kaushan Script", arial;
+}
+
+
+@font-face {
+    font-family: "FiraSans SemiBoldItalic";
+    src: url(../fonts/FiraSans-SemiBoldItalic.otf) format('truetype');
+}
+.profile li {
+    font-size: 15px;
+    font-family: "FiraSans SemiBoldItalic", arial;
+    padding: 5px;
+    
+}
+
+.sidenav-trigger li a {
+    box-shadow: 4px 4px 6px #0f2;
+    color:#000;
+}
+    
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    float: right;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 30px;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #da3;
+    opacity: 0.5;
+  }
+
+
+  
